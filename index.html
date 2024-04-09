@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Player</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="heading">
+    <h1>Music Player</h1>
+    <button id="toggleThemeBtn">Toggle Theme</button>
+</div>
+<div class="container">
+    <div id="allSongs" class="section">
+        <h2>All Songs</h2>
+        <select id="genreFilter">
+            <option value="all">All Genres</option>
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="hiphop">Hip Hop</option>
+        </select>
+        <ul id="songsList"></ul>
+    </div>
+    <div id="songCard" class="section">
+        <h2>Song Card</h2>
+        <div id="songInfo">
+            <img id="songImg" src="" alt="Song Image">
+            <p id="songName"></p>
+            <p id="artistName"></p>
+        </div>
+        <div id="controls">
+            <button id="prevBtn">Previous</button>
+            <button id="playBtn">Play</button>
+            <button id="nextBtn">Next</button>
+            <button id="addToPlaylistBtn">Add to Playlist</button>
+        </div>
+    </div>
+    <div id="playlist" class="section">
+        <h2>Playlist</h2>
+        <button id="createPlaylistBtn">Create Playlist</button>
+        <ul id="playlistList"></ul>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
