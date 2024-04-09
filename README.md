@@ -40,7 +40,7 @@ To run this web application locally:
 
 ## Credits
 
-This project is created by [Your Name]. Feel free to contribute or suggest improvements.
+This project is created by Mustkeem Ahmad. Feel free to contribute or suggest improvements.
 
 ## License
 
